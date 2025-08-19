@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #c83315;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 231, 222);
+}
+.container {
+  display: flex;
+  border: 1.5px solid #c83315;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px orangered;
+  max-width: 650px;
+}
+.input-area {
+  border-radius: 15px;
+  background-color: rgb(250, 225, 180);
+  padding: 15px 20px;
+  flex: 1;
+}
+.input-area p,
+input {
+  margin: 10px 0;
+}
+.input-area p {
+  font-size: 17px;
+}
+label {
+  font-size: 18px;
+  font-weight: 550;
+}
+input {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid #c83315;
+  border-radius: 10px;
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid orange;
+}
+.output-area {
+  border-radius: 15px;
+  background-color: rgb(255, 218, 173);
+  padding: 15px 20px;
+  flex: 1;
+}
+.output-area p {
+  font-weight: 550;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.top-heading {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+button {
+  padding: 8px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#calcBtn {
+  background-color: #c83315;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+#resetBtn {
+  border: none;
+  background-color: transparent;
+}
+button:hover {
+  transform: scale(1.09);
+}
